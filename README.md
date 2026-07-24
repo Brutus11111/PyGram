@@ -2,7 +2,7 @@
 
 Telegram client in Python.
 
-I created this because I wanted to use this. I wanted a simple Telegram client that I can use. I specifically designed it to have flat text, a more IRC like experience.
+I created this because I wanted to use this. I wanted a simple Telegram client that I can use. I specifically designed it to have flat text, a more IRC like experience. The client automatically refreshes but there is a refresh option just in case. It has only a few options. You can select a channel, then go back, refresh or quit. You can type messages and read messages. It's basic by design.
 
 The benefits:
 
