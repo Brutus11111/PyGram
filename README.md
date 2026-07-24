@@ -15,12 +15,6 @@ To obtain an API ID and develop your own application using the Telegram API:
 
 These are required for user authorization.
 
-Create a file called config.env and place the credentials in as followed:
-
-```
-api_id = ABCD1234
-api_hash = ABCD1234ABCD1234
-```
 
 ## Usage
 
@@ -38,17 +32,25 @@ python3 -m venv ~/tgvenv
 ~/tgvenv/bin/pip install telethon
 echo 'alias tg="$HOME/tgvenv/bin/python $HOME/tg.py"' >> ~/.bashrc
 source ~/.bashrc
+```
+
+
+Create a file called config.env and place the credentials in as followed:
+
+```
+api_id = ABCD1234
+api_hash = ABCD1234ABCD1234
+```
 
 Then edit your script:
 
 vim ~/tg.py
 
-Make sure it includes your api_id and api_hash.
+Make sure it includes your `api_id` and `api_hash`.
 
 Run it with:
 
-tg
-```
+`tg`
 
 Notes
 This setup assumes your script is saved as `~/tg.py`.
