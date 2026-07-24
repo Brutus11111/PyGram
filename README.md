@@ -2,6 +2,9 @@
 
 Telegram client in Python.
 
+![Screenshot](images/screenshot.png)
+
+
 ## Obtaining `api_id` and `api_hash`
 
 To obtain an API ID and develop your own application using the Telegram API:
