@@ -2,6 +2,15 @@
 
 Telegram client in Python.
 
+I created this because I wanted to use this. I wanted a simple Telegram client that I can use. I specifically designed it to have flat text, a more IRC like experience.
+
+The benefits:
+
+1. Pure terminal client
+2. Easy to use
+3. No images, videos, emoticons etc
+4. Simple to use
+
 ![Screenshot](images/screenshot.png)
 
 
