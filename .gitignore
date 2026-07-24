@@ -1,0 +1,8 @@
+config.env
+*.back1
+*.back*
+*.working
+*.session
+*.session-journal
+__pycache__/
+*.pyc
